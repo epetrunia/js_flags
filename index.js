@@ -35,3 +35,25 @@
 //
 // const array = ['a', 2, 'c', true];
 // alert(hasElem(array));
+
+// 3. Дан массив с числами. Проверьте, что в этом массиве есть число 5. Если есть - выведите 'да', а если нет - выведите 'нет'
+// /**
+//  *
+//  * @type {number[]}
+//  */
+//
+// function hasElem(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] === 5) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+//
+// const array = [1, 2, 3, 4, 5, 6, 5];
+// if (hasElem(array)) {
+//     alert('да');
+// } else {
+//     alert('нет');
+// }
